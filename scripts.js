@@ -9,9 +9,10 @@ $(document).ready(function () {
 
 			});
 
+			
 			//removes task from list when 'delete' is clicked
-			$(".delete").click(function(){
-				$(this).closest('.task').remove();
+			$(".delete").on("click", function(){
+				$(this).closest('li').remove();
 			});
 	
 
