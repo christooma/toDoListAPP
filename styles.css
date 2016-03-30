@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+*, h1, h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Varela Round';
+	list-style: none;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+
+.banner {
+	background: #EA5959;
+	width: 100%;
+	height: 100px;
+}
+
+.banner h1 {
+	padding-top: .8em;
+	color: #FFE084;
+}
+
+#to-do {
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 400px;
+	height: 3em;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+#incomplete-list {
+	padding-bottom: 50px;
+}
+
+#add-button {
+	padding: 5px;
+
+}
+
+#date, #add-button {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#date input {
+	display: inline;
+	margin-top: 15px; 
+	text-align: center;
+}
+
+.task {
+	border-bottom: 1px solid black;
+	width: 400px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.delete {
+	text-align: right;
+	color: red;
+	margin-top: -15px;
+}
+
+input[type="checkbox"] {
+	margin-right: 15px;
+	text-align: left;
+}
+
+.title {
+	padding-bottom: 15px;
+	text-align: left;
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Sexy To-Do List</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+
+	<link rel="stylesheet" href="styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="banner">
+		<h1 style="text-align:center;">"Do me, you sexy bastard."</h1>
+	</div>
+	<input id="to-do" type="text" name="task" placeholder="Enter a To-Do...">
+	<button id="add-button">ADD ME PLEASE</button>
+	<div id="date">
+		<label for="urgent">Today:</label>
+		<input type="checkbox" name="checkbox" id="urgent">
+		<label for="dueDate">Future:</label>
+		<input type="date" id="dueDate">
+	</div>
+	<ul id="incomplete-list">
+
+		<li class="task">
+			<h1 class="title"><input type="checkbox" name="checkbox">Call Mother Theresa</h1>
+			<a class="delete" href="#">
+				<p>delete</p>
+			</a>
+		</li>
+
+		<li class="task">
+			<h1 class="title"><input type="checkbox" name="checkbox">Do Tha Dishes</h1>
+			<a class="delete" href="#">
+				<p>delete</p>
+			</a>
+		</li>
+
+		<li class="task">
+			<h1 class="title"><input type="checkbox" name="checkbox">Kill A Man</h1>
+			<a class="delete" href="#">
+				<p>delete</p>
+			</a>
+		</li>
+
+		<li class="task">
+			<h1 class="title"><input type="checkbox" name="checkbox">Watch Television</h1>
+			<a class="delete" href="#">
+				<p>delete</p>
+			</a>
+		</li>
+
+		<li class="task">
+			<h1 class="title"><input type="checkbox" name="checkbox">Become An Amoeba</h1>
+			<a class="delete" href="#">
+				<p>delete</p>
+			</a>
+		</li>
+		
+		
+
+	</ul>
+	<ul id="complete-list">
+	</ul>
+
+
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+
+</html>
